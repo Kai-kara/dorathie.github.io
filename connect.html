@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorathie/Connect</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Dorothie.png" type="image/x-icon">
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <header class="nav_bar">
+        <div class="container">
+            <div class="subcontainer">
+                <h1 class="logo">DORATHIE</h1>
+                <div id="tab" class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="bio.html">Bio</a>
+                    <a href="media.html">Media</a>
+                    <a href="connect.html">Connect</a>
+                </div><br>
+
+                <div id="ham_one" onclick="open_tab()" class="hamburger">
+                    <span id="bar1" class="bar"></span>
+                    <span id="bar2" class="bar"></span>
+                    <span id="bar3" class="bar"></span>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="container">
+            <div class="subcontainer">
+                <h1 class="top_head">Stay connected to us</h1>
+                <img class="connect_img" src="Dorothie.png" alt="Namitala">
+                <div class="form">
+                    <form action="https://getform.io/f/lakmrrea" method="POST">
+                        <input type="text" placeholder="Name..." name="name" required spellcheck="false"><br>
+                        <input type="email" placeholder="Email..." name="email" required spellcheck="true"><br>
+                        <input type="number" name="age" min="14" max="20" placeholder="Age..." required><br><br>
+                        <select name="class" id="class">
+                            <option value="primary">Primary</option>
+                            <option value="High school" selected>High School</option>
+                            <option value="University">University</option>
+                            <option value="None">Not in school</option>
+                        </select><br>
+                        <input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female <br>
+                        <textarea name="message" id="message" cols="20" rows="5" placeholder="Tell us your message..."></textarea><br>
+
+                        <input class="take_message" type="submit" value="Send"> <br><input class="take_message" type="reset" value="Cancel">
+                    </form><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer_note">
+        <section  class="footer_data">Dorathie&reg is a registered mark, copying content require copyright notices. <br> Dorathie&copy <br> Accurate content <br> Nothing in this site is against internet rules</section>
+        <br>
+        <div class="footer_links">
+            <a href="https://www.facebook.com">Facebook</a><a href="https://www.instagram.com">Instagram</a><a href="https://telegram.com">Telegram</a><a href="https://www.google.com">Google</a>
+        </div><br>
+    </footer>
+
+</body>
+</html>
